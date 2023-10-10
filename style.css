@@ -2,7 +2,140 @@
 * {
     font-family:'Raleway', sans-serif;
 }
+
 body {
-    margin:O;
+    padding:0;
+    margin:0;
     box-sizing: border-box;
 }
+
+header {
+    width:90%;
+    padding:0 5% 0 5%;
+    margin: 0;
+}
+
+.flex-header {
+    margin:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+}
+
+.logo-header {
+    position:relative;
+    height:29px;
+    margin-top:44px;
+    margin-left:5px;
+    object-fit: cover;
+}
+
+.nav-header {
+    width:33%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 0;
+}
+
+.navbar {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+.li-homes, .li-activities {
+    width:50%;
+    height:100%;
+    position:relative;
+    margin-top:0px;
+    font-style:normal;
+    font-weight:400;
+    font-size:16px;
+    line-height:118px;
+    text-align: center;
+}
+
+.a-homes, .a-activities {
+    position:relative;
+    color: #000000;
+    width:100%;
+    text-decoration: none;
+    line-height:19px;
+}
+
+.li-homes:hover, .li-activities:hover {
+    border-top:2px solid #0065FC;
+    color:#0065FC;
+    font-weight:500;
+}
+
+
+
+
+
+
+footer {
+    margin: 0;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    background-color:#F2F2F2;
+}
+
+.article {
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    padding:45px 45px 58px 45px;
+}
+.title-article {
+    font-style:normal;
+    font-weight:700;
+    font-size:18px;
+    line-height:21px;
+    color:black;
+}
+.list-article{
+    display:flex;
+    flex-direction: column;
+    font-style:normal;
+    font-weight:400;
+    font-size:16px;
+    line-height:19px;
+    list-style: none;
+}
+.listfooter {
+    position:relative;
+    left:-42px;
+    padding-bottom:10px;
+    width:100%;
+}
+.a-article {
+    width:100%;
+    position:relative;
+    font-style:normal;
+    font-weight:400;
+    font-size:18px;
+    line-height:21px;
+    color:black;
+    list-style: none;
+    text-decoration: none;
+}
+/** {
+    border:1px solid red;
+}*/
+
+@media screen and (min-width:768px) and (max-width:992px){}
+@media screen and (max-width:767px){}
+
+
