@@ -12,7 +12,7 @@
     <body>
         <header>
             <div class="flex-header">
-                <img src="./images/logo/Booki.png" alt="Booki" class="logo-header">
+                <h1><img src="./images/logo/Booki.png" alt="Booki" class="logo-header"></h1>
                 <nav class="nav-header">
                     <ul class="navbar">
                         <li class="li-homes"><a class="a-homes" href="#homes">Hébergements</a></li>
@@ -24,12 +24,12 @@
         <main>
             <section class="search-filters">
                 <h2 class="title-search-filters">Trouvez votre hébergement pour des vacances de rêve</h2>
-                <div class="subtitle-search-filters">En plein centre-ville ou en pleine nature</div>
+                <label for="input" class="subtitle-search-filters">En plein centre-ville ou en pleine nature</label>
                 <form>
                     <span class="btn-local">
                         <i class="fa-sharp fa-solid fa-location-dot"></i>
                     </span>
-                    <input type="text" title="Sbar" class="input" value="Marseille, France">
+                    <input type="text" id="input" title="Sbar" class="input" value="Marseille, France">
                     <button title="search" type="submit" class="btn-search">
                         <i class="fa-solid fa-magnifying-glass"></i><span class="txt-search-btn">Rechercher</span>
                     </button>
