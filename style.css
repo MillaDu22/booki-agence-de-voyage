@@ -640,7 +640,9 @@ footer {
     margin: 0;
     display:flex;
     flex-direction:row;
-    width:100%;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
     background-color:#F2F2F2;
 }
 
@@ -657,6 +659,8 @@ footer {
     font-size:18px;
     line-height:21px;
     color:black;
+    position:relative;
+    margin-left: 20px;
 }
 
 .list-article{
@@ -674,6 +678,10 @@ footer {
     left:-42px;
     padding-bottom:10px;
     width:100%;
+}
+.list-article {
+    position:relative;
+    margin-left: 20px;
 }
 
 .a-article {
@@ -788,7 +796,7 @@ footer {
     }
 
     footer {
-        width:100%;
+        width:90%;
     }
 
     .article {
@@ -1268,10 +1276,12 @@ footer {
 
     .title-article {
         width:90%;
+        margin-left:0%;
     }
 
     .list-article {
         width:75%;
+        margin-left: 0%;
     }
 
     .acards3 {
